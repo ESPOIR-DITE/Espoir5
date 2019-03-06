@@ -16,7 +16,7 @@ public class AccountTest  {
     }
     @Test
     public void test2() throws Exception{
-        double value = account1.intrest(1000);
+        double value = account2.intrest(1000);
         Assert.assertEquals(value,100.0);
 
     }
